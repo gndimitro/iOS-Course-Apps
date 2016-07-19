@@ -7,109 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD5BB7961D36087B00FA292E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BB7951D36087B00FA292E /* AppDelegate.swift */; };
-		DD5BB7981D36087B00FA292E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BB7971D36087B00FA292E /* ViewController.swift */; };
-		DD5BB79B1D36087B00FA292E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5BB7991D36087B00FA292E /* Main.storyboard */; };
-		DD5BB79D1D36087B00FA292E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5BB79C1D36087B00FA292E /* Assets.xcassets */; };
-		DD5BB7A01D36087B00FA292E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5BB79E1D36087B00FA292E /* LaunchScreen.storyboard */; };
-		DD5BB7A81D3608A800FA292E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5BB7A71D3608A800FA292E /* CoreLocation.framework */; };
+		DD5929281D3DCED70091B6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5929271D3DCED70091B6FC /* AppDelegate.swift */; };
+		DD59292A1D3DCED70091B6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5929291D3DCED70091B6FC /* ViewController.swift */; };
+		DD59292D1D3DCED70091B6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59292B1D3DCED70091B6FC /* Main.storyboard */; };
+		DD59292F1D3DCED70091B6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD59292E1D3DCED70091B6FC /* Assets.xcassets */; };
+		DD5929321D3DCED70091B6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5929301D3DCED70091B6FC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD5BB7921D36087B00FA292E /* Where Am I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where Am I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5BB7951D36087B00FA292E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD5BB7971D36087B00FA292E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD5BB79A1D36087B00FA292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD5BB79C1D36087B00FA292E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD5BB79F1D36087B00FA292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD5BB7A11D36087B00FA292E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD5BB7A71D3608A800FA292E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD5929241D3DCED70091B6FC /* Advanced Segues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Segues.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5929271D3DCED70091B6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD5929291D3DCED70091B6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD59292C1D3DCED70091B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD59292E1D3DCED70091B6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5929311D3DCED70091B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5929331D3DCED70091B6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD5BB78F1D36087B00FA292E /* Frameworks */ = {
+		DD5929211D3DCED70091B6FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5BB7A81D3608A800FA292E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD5BB7891D36087B00FA292E = {
+		DD59291B1D3DCED60091B6FC = {
 			isa = PBXGroup;
 			children = (
-				DD5BB7A71D3608A800FA292E /* CoreLocation.framework */,
-				DD5BB7941D36087B00FA292E /* Where Am I */,
-				DD5BB7931D36087B00FA292E /* Products */,
+				DD5929261D3DCED70091B6FC /* Advanced Segues */,
+				DD5929251D3DCED70091B6FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DD5BB7931D36087B00FA292E /* Products */ = {
+		DD5929251D3DCED70091B6FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD5BB7921D36087B00FA292E /* Where Am I.app */,
+				DD5929241D3DCED70091B6FC /* Advanced Segues.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD5BB7941D36087B00FA292E /* Where Am I */ = {
+		DD5929261D3DCED70091B6FC /* Advanced Segues */ = {
 			isa = PBXGroup;
 			children = (
-				DD5BB7951D36087B00FA292E /* AppDelegate.swift */,
-				DD5BB7971D36087B00FA292E /* ViewController.swift */,
-				DD5BB7991D36087B00FA292E /* Main.storyboard */,
-				DD5BB79C1D36087B00FA292E /* Assets.xcassets */,
-				DD5BB79E1D36087B00FA292E /* LaunchScreen.storyboard */,
-				DD5BB7A11D36087B00FA292E /* Info.plist */,
+				DD5929271D3DCED70091B6FC /* AppDelegate.swift */,
+				DD5929291D3DCED70091B6FC /* ViewController.swift */,
+				DD59292B1D3DCED70091B6FC /* Main.storyboard */,
+				DD59292E1D3DCED70091B6FC /* Assets.xcassets */,
+				DD5929301D3DCED70091B6FC /* LaunchScreen.storyboard */,
+				DD5929331D3DCED70091B6FC /* Info.plist */,
 			);
-			path = "Where Am I";
+			path = "Advanced Segues";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD5BB7911D36087B00FA292E /* Where Am I */ = {
+		DD5929231D3DCED70091B6FC /* Advanced Segues */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD5BB7A41D36087B00FA292E /* Build configuration list for PBXNativeTarget "Where Am I" */;
+			buildConfigurationList = DD5929361D3DCED70091B6FC /* Build configuration list for PBXNativeTarget "Advanced Segues" */;
 			buildPhases = (
-				DD5BB78E1D36087B00FA292E /* Sources */,
-				DD5BB78F1D36087B00FA292E /* Frameworks */,
-				DD5BB7901D36087B00FA292E /* Resources */,
+				DD5929201D3DCED70091B6FC /* Sources */,
+				DD5929211D3DCED70091B6FC /* Frameworks */,
+				DD5929221D3DCED70091B6FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Where Am I";
-			productName = "Where Am I";
-			productReference = DD5BB7921D36087B00FA292E /* Where Am I.app */;
+			name = "Advanced Segues";
+			productName = "Advanced Segues";
+			productReference = DD5929241D3DCED70091B6FC /* Advanced Segues.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD5BB78A1D36087B00FA292E /* Project object */ = {
+		DD59291C1D3DCED60091B6FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = SerpentSoftware;
 				TargetAttributes = {
-					DD5BB7911D36087B00FA292E = {
+					DD5929231D3DCED70091B6FC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = NDV3L24Q5A;
-						SystemCapabilities = {
-							com.apple.Maps.iOS = {
-								enabled = 0;
-							};
-						};
 					};
 				};
 			};
-			buildConfigurationList = DD5BB78D1D36087B00FA292E /* Build configuration list for PBXProject "Where Am I" */;
+			buildConfigurationList = DD59291F1D3DCED60091B6FC /* Build configuration list for PBXProject "Advanced Segues" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = DD5BB7891D36087B00FA292E;
-			productRefGroup = DD5BB7931D36087B00FA292E /* Products */;
+			mainGroup = DD59291B1D3DCED60091B6FC;
+			productRefGroup = DD5929251D3DCED70091B6FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD5BB7911D36087B00FA292E /* Where Am I */,
+				DD5929231D3DCED70091B6FC /* Advanced Segues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD5BB7901D36087B00FA292E /* Resources */ = {
+		DD5929221D3DCED70091B6FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5BB7A01D36087B00FA292E /* LaunchScreen.storyboard in Resources */,
-				DD5BB79D1D36087B00FA292E /* Assets.xcassets in Resources */,
-				DD5BB79B1D36087B00FA292E /* Main.storyboard in Resources */,
+				DD5929321D3DCED70091B6FC /* LaunchScreen.storyboard in Resources */,
+				DD59292F1D3DCED70091B6FC /* Assets.xcassets in Resources */,
+				DD59292D1D3DCED70091B6FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD5BB78E1D36087B00FA292E /* Sources */ = {
+		DD5929201D3DCED70091B6FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5BB7981D36087B00FA292E /* ViewController.swift in Sources */,
-				DD5BB7961D36087B00FA292E /* AppDelegate.swift in Sources */,
+				DD59292A1D3DCED70091B6FC /* ViewController.swift in Sources */,
+				DD5929281D3DCED70091B6FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD5BB7991D36087B00FA292E /* Main.storyboard */ = {
+		DD59292B1D3DCED70091B6FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD5BB79A1D36087B00FA292E /* Base */,
+				DD59292C1D3DCED70091B6FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DD5BB79E1D36087B00FA292E /* LaunchScreen.storyboard */ = {
+		DD5929301D3DCED70091B6FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD5BB79F1D36087B00FA292E /* Base */,
+				DD5929311D3DCED70091B6FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DD5BB7A21D36087B00FA292E /* Debug */ = {
+		DD5929341D3DCED70091B6FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		DD5BB7A31D36087B00FA292E /* Release */ = {
+		DD5929351D3DCED70091B6FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,24 +246,24 @@
 			};
 			name = Release;
 		};
-		DD5BB7A51D36087B00FA292E /* Debug */ = {
+		DD5929371D3DCED70091B6FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Where Am I/Info.plist";
+				INFOPLIST_FILE = "Advanced Segues/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Where-Am-I";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Advanced-Segues";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DD5BB7A61D36087B00FA292E /* Release */ = {
+		DD5929381D3DCED70091B6FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Where Am I/Info.plist";
+				INFOPLIST_FILE = "Advanced Segues/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Where-Am-I";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Advanced-Segues";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -280,25 +271,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD5BB78D1D36087B00FA292E /* Build configuration list for PBXProject "Where Am I" */ = {
+		DD59291F1D3DCED60091B6FC /* Build configuration list for PBXProject "Advanced Segues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD5BB7A21D36087B00FA292E /* Debug */,
-				DD5BB7A31D36087B00FA292E /* Release */,
+				DD5929341D3DCED70091B6FC /* Debug */,
+				DD5929351D3DCED70091B6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD5BB7A41D36087B00FA292E /* Build configuration list for PBXNativeTarget "Where Am I" */ = {
+		DD5929361D3DCED70091B6FC /* Build configuration list for PBXNativeTarget "Advanced Segues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD5BB7A51D36087B00FA292E /* Debug */,
-				DD5BB7A61D36087B00FA292E /* Release */,
+				DD5929371D3DCED70091B6FC /* Debug */,
+				DD5929381D3DCED70091B6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DD5BB78A1D36087B00FA292E /* Project object */;
+	rootObject = DD59291C1D3DCED60091B6FC /* Project object */;
 }
