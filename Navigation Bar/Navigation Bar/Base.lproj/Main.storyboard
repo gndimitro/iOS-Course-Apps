@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wvp-B0-USx">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SNx-mp-K7r"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Navigation Bars" id="IDK-VZ-o7T">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="camera" id="hAg-LG-VcC"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="rewind" id="Qud-b2-Fc5">
+                                            <color key="tintColor" red="1" green="0.04910030757752315" blue="0.10886666409828127" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boj-zP-PuN">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ro1-KT-Hkv"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="organize" id="1dg-bi-ufe"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XwA-ko-liW"/>
+                                    <barButtonItem systemItem="bookmarks" id="Exh-0p-1dC"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="nM8-Sh-yBd"/>
+                                    <barButtonItem systemItem="stop" id="s0C-td-LkN"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wvp-B0-USx" secondAttribute="trailing" constant="-20" id="JxR-qG-Dgv"/>
+                            <constraint firstItem="Wvp-B0-USx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Jyn-yp-8ka"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="boj-zP-PuN" secondAttribute="bottom" id="ncd-ax-0gL"/>
+                            <constraint firstItem="boj-zP-PuN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="pna-yl-yu3"/>
+                            <constraint firstItem="Wvp-B0-USx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="w2f-KS-uyi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="boj-zP-PuN" secondAttribute="trailing" constant="-20" id="y77-1m-ibG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

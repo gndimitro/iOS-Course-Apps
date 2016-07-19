@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD80FF0A1CFFCE7500514CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD80FF091CFFCE7500514CB1 /* AppDelegate.swift */; };
+		DD80FF0C1CFFCE7500514CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD80FF0B1CFFCE7500514CB1 /* ViewController.swift */; };
+		DD80FF0F1CFFCE7500514CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF0D1CFFCE7500514CB1 /* Main.storyboard */; };
+		DD80FF111CFFCE7500514CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF101CFFCE7500514CB1 /* Assets.xcassets */; };
+		DD80FF141CFFCE7500514CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF121CFFCE7500514CB1 /* LaunchScreen.storyboard */; };
+		DD80FF1E1CFFCEDA00514CB1 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF1B1CFFCEDA00514CB1 /* board.png */; };
+		DD80FF1F1CFFCEDA00514CB1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF1C1CFFCEDA00514CB1 /* cross.png */; };
+		DD80FF201CFFCEDA00514CB1 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = DD80FF1D1CFFCEDA00514CB1 /* nought.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD80FF061CFFCE7500514CB1 /* Noughts and Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts and Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD80FF091CFFCE7500514CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD80FF0B1CFFCE7500514CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD80FF0E1CFFCE7500514CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD80FF101CFFCE7500514CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD80FF131CFFCE7500514CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD80FF151CFFCE7500514CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD80FF1B1CFFCEDA00514CB1 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		DD80FF1C1CFFCEDA00514CB1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		DD80FF1D1CFFCEDA00514CB1 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD80FF031CFFCE7500514CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD80FEFD1CFFCE7500514CB1 = {
+			isa = PBXGroup;
+			children = (
+				DD80FF081CFFCE7500514CB1 /* Noughts and Crosses */,
+				DD80FF071CFFCE7500514CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD80FF071CFFCE7500514CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD80FF061CFFCE7500514CB1 /* Noughts and Crosses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD80FF081CFFCE7500514CB1 /* Noughts and Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				DD80FF091CFFCE7500514CB1 /* AppDelegate.swift */,
+				DD80FF0B1CFFCE7500514CB1 /* ViewController.swift */,
+				DD80FF0D1CFFCE7500514CB1 /* Main.storyboard */,
+				DD80FF101CFFCE7500514CB1 /* Assets.xcassets */,
+				DD80FF121CFFCE7500514CB1 /* LaunchScreen.storyboard */,
+				DD80FF151CFFCE7500514CB1 /* Info.plist */,
+				DD80FF1B1CFFCEDA00514CB1 /* board.png */,
+				DD80FF1C1CFFCEDA00514CB1 /* cross.png */,
+				DD80FF1D1CFFCEDA00514CB1 /* nought.png */,
+			);
+			path = "Noughts and Crosses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD80FF051CFFCE7500514CB1 /* Noughts and Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD80FF181CFFCE7500514CB1 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */;
+			buildPhases = (
+				DD80FF021CFFCE7500514CB1 /* Sources */,
+				DD80FF031CFFCE7500514CB1 /* Frameworks */,
+				DD80FF041CFFCE7500514CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts and Crosses";
+			productName = "Noughts and Crosses";
+			productReference = DD80FF061CFFCE7500514CB1 /* Noughts and Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD80FEFE1CFFCE7500514CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SerpentSoftware;
+				TargetAttributes = {
+					DD80FF051CFFCE7500514CB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NDV3L24Q5A;
+					};
+				};
+			};
+			buildConfigurationList = DD80FF011CFFCE7500514CB1 /* Build configuration list for PBXProject "Noughts and Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD80FEFD1CFFCE7500514CB1;
+			productRefGroup = DD80FF071CFFCE7500514CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD80FF051CFFCE7500514CB1 /* Noughts and Crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD80FF041CFFCE7500514CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD80FF1F1CFFCEDA00514CB1 /* cross.png in Resources */,
+				DD80FF1E1CFFCEDA00514CB1 /* board.png in Resources */,
+				DD80FF201CFFCEDA00514CB1 /* nought.png in Resources */,
+				DD80FF141CFFCE7500514CB1 /* LaunchScreen.storyboard in Resources */,
+				DD80FF111CFFCE7500514CB1 /* Assets.xcassets in Resources */,
+				DD80FF0F1CFFCE7500514CB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD80FF021CFFCE7500514CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD80FF0C1CFFCE7500514CB1 /* ViewController.swift in Sources */,
+				DD80FF0A1CFFCE7500514CB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD80FF0D1CFFCE7500514CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD80FF0E1CFFCE7500514CB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD80FF121CFFCE7500514CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD80FF131CFFCE7500514CB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD80FF161CFFCE7500514CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD80FF171CFFCE7500514CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD80FF191CFFCE7500514CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Noughts-and-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD80FF1A1CFFCE7500514CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serpentsoftware.Noughts-and-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD80FF011CFFCE7500514CB1 /* Build configuration list for PBXProject "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD80FF161CFFCE7500514CB1 /* Debug */,
+				DD80FF171CFFCE7500514CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD80FF181CFFCE7500514CB1 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD80FF191CFFCE7500514CB1 /* Debug */,
+				DD80FF1A1CFFCE7500514CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD80FEFE1CFFCE7500514CB1 /* Project object */;
+}
