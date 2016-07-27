@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0D208A1D487636008D6013 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20821D487636008D6013 /* bean.mp3 */; };
+		DD0D208B1D487636008D6013 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20831D487636008D6013 /* belch.mp3 */; };
+		DD0D208C1D487636008D6013 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20841D487636008D6013 /* giggle.mp3 */; };
+		DD0D208D1D487636008D6013 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20851D487636008D6013 /* pew.mp3 */; };
+		DD0D208E1D487636008D6013 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20861D487636008D6013 /* pig.mp3 */; };
+		DD0D208F1D487636008D6013 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20871D487636008D6013 /* snore.mp3 */; };
+		DD0D20901D487636008D6013 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20881D487636008D6013 /* static.mp3 */; };
+		DD0D20911D487636008D6013 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD0D20891D487636008D6013 /* uuu.mp3 */; };
 		DDE947441D48210100E59EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE947431D48210100E59EC6 /* AppDelegate.swift */; };
 		DDE947461D48210100E59EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE947451D48210100E59EC6 /* ViewController.swift */; };
 		DDE947491D48210100E59EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE947471D48210100E59EC6 /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0D20821D487636008D6013 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		DD0D20831D487636008D6013 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		DD0D20841D487636008D6013 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		DD0D20851D487636008D6013 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		DD0D20861D487636008D6013 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		DD0D20871D487636008D6013 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		DD0D20881D487636008D6013 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		DD0D20891D487636008D6013 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
 		DDE947401D48210100E59EC6 /* Shake Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE947431D48210100E59EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE947451D48210100E59EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0D20811D4875C4008D6013 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D20821D487636008D6013 /* bean.mp3 */,
+				DD0D20831D487636008D6013 /* belch.mp3 */,
+				DD0D20841D487636008D6013 /* giggle.mp3 */,
+				DD0D20851D487636008D6013 /* pew.mp3 */,
+				DD0D20861D487636008D6013 /* pig.mp3 */,
+				DD0D20871D487636008D6013 /* snore.mp3 */,
+				DD0D20881D487636008D6013 /* static.mp3 */,
+				DD0D20891D487636008D6013 /* uuu.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		DDE947371D48210100E59EC6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +85,7 @@
 		DDE947421D48210100E59EC6 /* Shake Project */ = {
 			isa = PBXGroup;
 			children = (
+				DD0D20811D4875C4008D6013 /* Sounds */,
 				DDE947431D48210100E59EC6 /* AppDelegate.swift */,
 				DDE947451D48210100E59EC6 /* ViewController.swift */,
 				DDE947471D48210100E59EC6 /* Main.storyboard */,
@@ -123,9 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0D208A1D487636008D6013 /* bean.mp3 in Resources */,
+				DD0D208F1D487636008D6013 /* snore.mp3 in Resources */,
+				DD0D208C1D487636008D6013 /* giggle.mp3 in Resources */,
+				DD0D20911D487636008D6013 /* uuu.mp3 in Resources */,
+				DD0D208B1D487636008D6013 /* belch.mp3 in Resources */,
+				DD0D20901D487636008D6013 /* static.mp3 in Resources */,
 				DDE9474E1D48210100E59EC6 /* LaunchScreen.storyboard in Resources */,
 				DDE9474B1D48210100E59EC6 /* Assets.xcassets in Resources */,
+				DD0D208E1D487636008D6013 /* pig.mp3 in Resources */,
 				DDE947491D48210100E59EC6 /* Main.storyboard in Resources */,
+				DD0D208D1D487636008D6013 /* pew.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +327,7 @@
 				DDE947541D48210100E59EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
