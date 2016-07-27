@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         
         /*let newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context)
         
-        newUser.setValue("George", forKey: "username")
+        newUser.setValue("Julie", forKey: "username")
         
-        newUser.setValue("pass123", forKey: "password")
+        newUser.setValue("pasdfss1243", forKey: "password")
         
         do {
         
@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         
         let request = NSFetchRequest(entityName: "Users")
         
+        //request.predicate = NSPredicate(format: "username = %@", "Yasir")
+        
         request.returnsObjectsAsFaults = false
         
         do {
@@ -47,8 +49,23 @@ class ViewController: UIViewController {
             if results.count > 0 {
                 
                 for result in results as! [NSManagedObject] {
-                    print(result.valueForKey("username")!)
-                    print(result.valueForKey("password")!)
+                    
+                    //Top line is to delete the value
+                    /*context.deleteObject(result)
+                    
+                    // Update the value
+                    //result.setValue("Yasir", forKey: "username")
+                    
+                    do {
+                        try context.save()
+                    } catch {
+                        //No handle of errors
+                    }
+                    
+                    */
+                    if let username = result.valueForKey("username") as? String {
+                        print(username)
+                    }
                 }
                 
             }
